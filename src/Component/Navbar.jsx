@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSearch, FaUser, FaBookmark, FaShoppingBag } from "react-icons/fa";
 import { bag, book, logo, search, useral } from "../images/images";
 export default function Navbar() {
   return (
