@@ -12,6 +12,10 @@ import ellipse from "./Ellipse.svg";
 import vector from "./vector.svg";
 import cart from "./Shoppingcart.svg";
 import bookmark from "./Bookmark.svg";
+import book from "./book.svg";
+import search from "./Search.svg";
+import bag from "./shoppingBag.svg";
+import useral from "./user.svg";
 export {
   allbags,
   bucketbag,
@@ -27,4 +31,8 @@ export {
   vector,
   cart,
   bookmark,
+  book,
+  search,
+  bag,
+  useral,
 };

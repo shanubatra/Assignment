@@ -1,6 +1,6 @@
 import React from "react";
 import { FaSearch, FaUser, FaBookmark, FaShoppingBag } from "react-icons/fa";
-import { logo } from "../images/images";
+import { bag, book, logo, search, useral } from "../images/images";
 export default function Navbar() {
   return (
     <div className="bg-black text-[#E5DFD9] h-[105] pb-5">
@@ -9,10 +9,10 @@ export default function Navbar() {
           <img src={logo} />
         </div>
         <div className="flex justify-between gap-5">
-          <FaSearch />
-          <FaUser />
-          <FaBookmark />
-          <FaShoppingBag />
+          <img src={search} />
+          <img src={useral} />
+          <img src={book} />
+          <img src={bag} />
         </div>
       </div>
       <div>
