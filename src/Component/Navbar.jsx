@@ -5,13 +5,13 @@ export default function Navbar() {
     <div className="bg-black text-[#E5DFD9] h-[105] pb-5">
       <div className="flex justify-between py-5 px-10 flex-1 items-center gap-3">
         <div>
-          <img src={logo} />
+          <img  alt="image" src={logo} />
         </div>
         <div className="flex justify-between gap-5">
-          <img src={search} />
-          <img src={useral} />
-          <img src={book} />
-          <img src={bag} />
+          <img  alt="image" src={search} />
+          <img  alt="image" src={useral} />
+          <img  alt="image" src={book} />
+          <img  alt="image" src={bag} />
         </div>
       </div>
       <div>
