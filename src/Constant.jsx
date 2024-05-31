@@ -8,6 +8,10 @@ import {
   slingbag,
   totebag,
   vanitypouch,
+  bag,
+  book,
+  search,
+  useral,
 } from "../src/images/images.jsx";
 
 export const Bags = [
@@ -46,5 +50,46 @@ export const Bags = [
   {
     icon: bucketbag,
     title: "Bucket Bag",
+  },
+];
+
+export const navLinks = [
+  {
+    title: "Bags",
+    id: 1,
+  },
+  {
+    title: "Travel",
+    id: 2,
+  },
+  {
+    title: "Accesories",
+    id: 3,
+  },
+  {
+    title: "Gifting",
+    id: 4,
+  },
+  {
+    title: "Jewelerys",
+    id: 5,
+  },
+];
+export const icons = [
+  {
+    icon: search,
+    title: "search",
+  },
+  {
+    icon: useral,
+    title: "user",
+  },
+  {
+    icon: book,
+    title: "bookmark",
+  },
+  {
+    icon: bag,
+    title: "shopping bag",
   },
 ];

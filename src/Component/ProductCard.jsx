@@ -1,7 +1,6 @@
 import React from "react";
 import { bookmark, cart } from "../images/images.jsx";
 
-
 export default function ProductCard({data}) {
   return (
     <div>

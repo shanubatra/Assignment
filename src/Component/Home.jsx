@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { ellipse, vector } from "../images/images.jsx";
+
 import axios from "axios";
+
+import { ellipse, vector } from "../images/images.jsx";
+
 import ProductCard from "./ProductCard.jsx";
 import BagsCard from "./BagsCard.jsx";
+
 export default function Home() {
   let [data, setData] = useState([]);
+
   const getAPIData = async () => {
     try {
       let response = await axios.get("https://fakestoreapi.com/products");
