@@ -14,7 +14,7 @@ export default function ProductCard({ data }) {
               <img
                 alt={item.id}
                 src={item.image}
-                className="w-full h-[328.43px] object-cover rounded-t-xl "
+                className="w-full h-[328.43px] object-cover rounded-t-xl"
               />
 
               <img
@@ -31,7 +31,9 @@ export default function ProductCard({ data }) {
                 {item.category}
               </p>
               <div className="flex justify-between items-center">
-                <p className="text-green-500">₹ {item.price}</p>
+                <p>
+                  Price: <span className="text-green-500">₹{item.price}</span>
+                </p>
                 <button>
                   <img src={cart} alt="cart" />
                 </button>

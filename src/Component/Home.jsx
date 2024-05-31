@@ -32,7 +32,7 @@ export default function Home() {
         <div>
           <img src={ellipse} alt="ellipse" />
         </div>
-        <div className="flex gap-3 items-center">
+        <div className="flex justify-between items-center">
           <p>{data.length} Products</p>
           <img src={vector} alt="vector" />
         </div>
