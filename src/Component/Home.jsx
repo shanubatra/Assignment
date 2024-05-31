@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div className="bg-black text-[#E5DFD9] pb-5">
-      <div className="flex flex-row items-baseline justify-around overflow-auto gap-2 ml-2">
+      <div >
         <BagsCard />
       </div>
       <div className="flex justify-between items-center px-6 py-4">
@@ -37,7 +37,7 @@ export default function Home() {
           <img src={vector} alt="vector" />
         </div>
       </div>
-      <div className="flex flex-wrap justify-center items-baseline gap-8 mt-4 mb-32 ">
+      <div>
         <ProductCard data={data} />
       </div>
     </div>

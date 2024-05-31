@@ -3,7 +3,7 @@ import { Bags } from "../Constant.jsx";
 
 export default function BagsCard() {
   return (
-    <div>
+    <div className="flex flex-row items-baseline justify-around overflow-auto gap-2 ml-2">
       {Bags.map((item, index) => {
         return (
           <div key={index}>
