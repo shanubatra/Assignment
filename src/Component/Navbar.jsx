@@ -51,7 +51,10 @@ export default function Navbar() {
                   <ul>
                     {navLinks.map((item, index) => {
                       return (
-                        <li className="m-4" key={index}>
+                        <li
+                          className="hover:border-b-2 cursor-pointer m-4"
+                          key={index}
+                        >
                           {item.title}
                         </li>
                       );
@@ -72,7 +75,11 @@ export default function Navbar() {
       <div>
         <ul className="lg:flex justify-center items-center gap-10  font-normal text-sm font-display hidden">
           {navLinks.map((item, index) => {
-            return <li key={index}>{item.title}</li>;
+            return (
+              <li className="hover:border-b-2 cursor-pointer" key={index}>
+                {item.title}
+              </li>
+            );
           })}
         </ul>
       </div>
